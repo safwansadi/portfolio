@@ -139,7 +139,8 @@ function Projects() {
           <h2 class="text-2xl  mb-2 text-gray-800">Video_Conferencing</h2>
           <p>
             {" "}
-            this is a complete video conferencing and live chat app. developed according to freelance-client's requirement 
+            this is a complete video conferencing and live chat app. developed
+            according to freelance-client's requirement
             <a
               className="no-underline w-3/4 mt-2 justify-center mx-auto block bg-gray-400 text-gray-600 rounded  hover:bg-gray-800 hover:text-white"
               href="https://github.com/safwansadi/Video_Conferencing"
@@ -151,6 +152,22 @@ function Projects() {
           <p className="font-light text-gray-500 text-lg my-2">
             Node.js, Express.js, MongoDB, EJS, JWT, Axios, Bootsrap, Socket.io,
             MVC
+          </p>
+        </div>
+        <div class="lg:h-100 md:h-auto sm:h-auto bg-red-50 p-6 rounded-md shadow-md transform hover:scale-105 duration-300 ease-in-out">
+          <h2 class="text-2xl  mb-2 text-gray-800">contact-reactapp</h2>
+          <p>
+            Simple react app to manage contact with CRUD operations.
+            <a
+              className="no-underline w-3/4 mt-2 justify-center mx-auto block bg-gray-400 text-gray-600 rounded  hover:bg-gray-800 hover:text-white"
+              href="https://github.com/safwansadi/contact-reactapp"
+              target="_blank"
+            >
+              View Code
+            </a>
+          </p>
+          <p className="font-light text-gray-500 text-lg my-2">
+           javascript, React.js, react-router-dom, json server, Axios, CRUD
           </p>
         </div>
       </div>
