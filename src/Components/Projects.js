@@ -8,7 +8,7 @@ function Projects() {
           </h1>
         </div>
       </header>
-      <div className="container w-3/4 justify-center mx-auto grid md:grid-cols-3 sm:grid-cols-2 gap-2 mt-10">
+      <div className="container w-3/4 justify-center mx-auto grid md:grid-cols-3 sm:grid-cols-2 gap-4 mt-10">
         <div class="lg:h-100 md:h-auto sm:h-auto bg-red-50 p-6 rounded-md shadow-md transform hover:scale-105 duration-300 ease-in-out">
           <h2 class="text-2xl  mb-2 text-gray-800">IdeaSharing-web app</h2>
           <p>
@@ -154,7 +154,7 @@ function Projects() {
             MVC
           </p>
         </div>
-        <div class="lg:h-100 md:h-auto sm:h-auto bg-red-50 p-6 rounded-md shadow-md transform hover:scale-105 duration-300 ease-in-out">
+        <div class="mb-8 lg:h-100 md:h-auto sm:h-auto bg-red-50 p-6 rounded-md shadow-md transform hover:scale-105 duration-300 ease-in-out">
           <h2 class="text-2xl  mb-2 text-gray-800">contact-reactapp</h2>
           <p>
             Simple react app to manage contact with CRUD operations.
@@ -167,10 +167,11 @@ function Projects() {
             </a>
           </p>
           <p className="font-light text-gray-500 text-lg my-2">
-           javascript, React.js, react-router-dom, json server, Axios, CRUD
+            javascript, React.js, react-router-dom, json server, Axios, CRUD
           </p>
         </div>
       </div>
+      
     </div>
   );
 }

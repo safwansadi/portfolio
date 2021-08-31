@@ -33,12 +33,12 @@ function Navigation() {
                     Projects
                   </a>
 
-                  {/*      <a
-                    href="#"
+                       <a
+                    href="#skills"
                     className="no-underline hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
-                    Calendar
-                  </a> */}
+                    Skills
+                  </a>
 
                   {/*   <a
                     href="#"
@@ -120,8 +120,8 @@ function Navigation() {
                   className="no-underline text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Team
-                </a>
- */}
+                </a> */}
+
                 <a
                   href="#projects"
                   className="no-underline text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -129,14 +129,14 @@ function Navigation() {
                   Projects
                 </a>
 
-                {/* <a
-                  href="#"
+                <a
+                  href="#skills"
                   className="no-underline text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Calendar
-                </a> */}
+                  Skills
+                </a>
 
-                {/*    <a
+                   {/* <a
                   href="#"
                   className="no-underline text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
