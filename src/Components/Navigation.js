@@ -6,7 +6,7 @@ function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-gray-800 opacity-100">
+      <nav className="bg-gray-900 opacity-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -40,12 +40,12 @@ function Navigation() {
                     Skills
                   </a>
 
-                  {/*   <a
-                    href="#"
+                    <a
+                    href="#footer"
                     className="no-underline hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
-                    Reports
-                  </a> */}
+                    Contacts
+                  </a>
                 </div>
               </div>
             </div>
@@ -148,14 +148,14 @@ function Navigation() {
         </Transition>
       </nav>
 
-      <header id="aboutme">
+      <header id="aboutme" className="bg-red-50">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-red-50">
+          <h1 className="text-3xl font-bold text-gray-900">
             <i>About me</i>
           </h1>
         </div>
       </header>
-      <main>
+      <main className="bg-red-50">
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
           {/* <!-- Replace with your content --> */}
           <div className="px-4 py-6 sm:px-0">

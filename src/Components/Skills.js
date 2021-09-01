@@ -4,10 +4,10 @@ import Software from "./Software";
 
 function Skills() {
   return (
-     <div className=""> 
+     <div className="bg-red-50"> 
       <header className="border-r-0 border-l-0 border-t-4 border-b-0 border-red-200 ">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 id="skills" className="text-3xl font-bold text-red-50">
+          <h1 id="skills" className="text-3xl font-bold text-gray-800">
             <i>Skills</i>
           </h1>
         </div>

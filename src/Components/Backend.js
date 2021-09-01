@@ -1,23 +1,24 @@
 function Backend() {
   return (
-    <div className=" bg-white shadow-lg  rounded-lg my-4  px-4 py-4  max-w-sm">
+    <div className=" bg-red-50 shadow-lg  rounded-lg my-4  px-4 py-4  max-w-sm">
       <div className="mb-0 tracking-wide px-2 py-3">
         <div className="border-b -mx-8 px-8 pb-3">
           <img
+            className=""
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmA9afhdJMGGbJR8WgmzESr_UeW6ApD7ce68o-fBZqUDLlRpz_xihpolbdpcrsXH9iklo&usqp=CAU"
-            style={{ width: "80%", height: "180px" }}
+            style={{ width: "100%", height: "180px" }}
           />
         </div>
         <div className="flex items-center mt-1">
-          <div className="w-2/5 tracking-tighter text-green-800">
+          <div className="w-2/5 tracking-tighter text-green-400">
             <span>Node.js</span>
           </div>
           <div className="w-3/5">
-            <div className="bg-gray-400 w-full rounded-lg h-2">
-              <div className="w-9/12 bg-green-800 rounded-lg h-2"></div>
+            <div className="bg-gray-200 w-full rounded-lg h-2">
+              <div className="w-9/12 bg-green-400 rounded-lg h-2"></div>
             </div>
           </div>
-          <div className="w-1/5 text-green-800 pl-3">
+          <div className="w-1/5 text-green-400 pl-3">
             <span className="text-sm">75%</span>
           </div>
         </div>
@@ -27,7 +28,7 @@ function Backend() {
             <span>MongoDB</span>
           </div>
           <div className="w-3/5">
-            <div className="bg-gray-400 w-full rounded-lg h-2">
+            <div className="bg-gray-200 w-full rounded-lg h-2">
               <div className="w-9/12 bg-green-400 rounded-lg h-2"></div>
             </div>
           </div>
@@ -40,7 +41,7 @@ function Backend() {
             <span>Express.js</span>
           </div>
           <div className="w-3/5">
-            <div className="bg-gray-400 w-full rounded-lg h-2">
+            <div className="bg-gray-200 w-full rounded-lg h-2">
               <div className="w-4/6 bg-gray-800 rounded-lg h-2"></div>
             </div>
           </div>
@@ -54,7 +55,7 @@ function Backend() {
             <span>SQL</span>
           </div>
           <div className="w-3/5">
-            <div className="bg-gray-300 w-full rounded-lg h-2">
+            <div className="bg-gray-200 w-full rounded-lg h-2">
               <div className="w-9/12 bg-red-600 rounded-lg h-2"></div>
             </div>
           </div>
@@ -68,7 +69,7 @@ function Backend() {
             <span>PHP</span>
           </div>
           <div className="w-3/5">
-            <div className="bg-gray-300 w-full rounded-lg h-2">
+            <div className="bg-gray-200 w-full rounded-lg h-2">
               <div className="w-7/12 bg-purple-400 rounded-lg h-2"></div>
             </div>
           </div>
@@ -81,7 +82,7 @@ function Backend() {
             <span>C#</span>
           </div>
           <div className="w-3/5">
-            <div className="bg-gray-300 w-full rounded-lg h-2">
+            <div className="bg-gray-200 w-full rounded-lg h-2">
               <div className="w-7/12 bg-blue-400 rounded-lg h-2"></div>
             </div>
           </div>

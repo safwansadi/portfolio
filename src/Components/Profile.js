@@ -1,7 +1,8 @@
 function Profile() {
   //flex md:flex-row md:justify-items-center
   return (
-    <figure className="border-4 border-red-200 mt-0  bg-gray-800 rounded-xl p-4 md:p-0 h-70">
+
+<figure className="border-4 border-red-200 mt-0  bg-gray-800 rounded-xl p-4 md:p-0 h-70">
       <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
         <div className="sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-3 ">
           <div className="flex md:flex-column md:justify-items-center">
@@ -55,6 +56,7 @@ function Profile() {
         </div>
       </div>
     </figure>
+
   );
 }
 

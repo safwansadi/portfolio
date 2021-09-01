@@ -1,6 +1,6 @@
 function Frontend() {
   return (
-    <div className=" bg-white shadow-lg  rounded-lg my-4  px-4 py-4  max-w-sm">
+    <div className=" bg-red-50 shadow-lg  rounded-lg my-4  px-4 py-4  max-w-sm">
       <div className="mb-0 tracking-wide px-2 py-3">
         <div className="border-b -mx-8 px-8 pb-3">
           <img
